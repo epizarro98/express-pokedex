@@ -52,4 +52,14 @@ router.post('/', function(req, res) {
   // res.send(req.body);
 });
 
+//delete method
+router.delete('/:idx' , (req, res)=>{
+  console.log(req.params.idx, '<-------')
+  db.pokemon.destroy({
+    where: {id: req.params.idx}
+  }).then(()=>{
+    res.redirect('/pokemon')
+  })
+})
+
 module.exports = router;

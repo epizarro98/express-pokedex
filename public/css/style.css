@@ -54,11 +54,12 @@ h1{
 }
 
 h2{
-    color: rgb(111, 228, 249);
+    color: rgb(233, 58, 55);
     text-align: center;
     font-family: 'Allerta', sans-serif;
     margin-top: 10vh;
     font-size: 45px;
+    margin-left: 10px;
 }
 
 .img{
@@ -66,5 +67,4 @@ h2{
     align-items: center;
     justify-content: center;
     margin-top: 3vh;
-
 }
